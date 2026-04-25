@@ -187,10 +187,3 @@ zig build test
 zig build -Doptimize=ReleaseFast
 ```
 
-## License
-
-MIT License
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
