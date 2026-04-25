@@ -1,0 +1,20 @@
+[log]
+level = "info"
+file_path = "logs/proc_monitor.log"
+console = true
+max_size_mb = 10
+max_files = 5
+
+daemon = false
+pid_file = "proc_monitor.pid"
+
+[[monitor.process]]
+monitored = "steam.exe"
+action = { "clash-verge.exe" = "close", "ShadowsocksR.exe" = "close" }
+check_interval = 10
+
+[[monitor.process]]
+# Process name to monitor (e.g., steam.exe)
+monitored = "EpicGamesLauncher.exe"
+action = { "clash-verge.exe" = "close", "ShadowsocksR.exe" = "close" }
+check_interval = 10

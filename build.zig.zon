@@ -1,0 +1,16 @@
+.{
+    .name = .proc_monitor,
+    .version = "0.1.0",
+    .fingerprint = 0x4cace9a44feed759,
+    .minimum_zig_version = "0.16.0-dev.3133+5ec8e45f3",
+    .dependencies = .{
+        .toml = .{
+            .path = "../bible/zig-pkg/.tmp-cb6e69726965eaf3",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
